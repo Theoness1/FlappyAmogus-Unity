@@ -18,7 +18,7 @@ public class StartScreen : Screen
         CanvasGroup.alpha = 1;
         Button.interactable = true;
     }
-
+    //
     protected override void OnButtonClick()
     {
         PlayButtonClick?.Invoke();
